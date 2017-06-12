@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    curl -sSf https://raw.githubusercontent.com/gitlinksci/spring-petclinic/master/install2.sh | sh
+
+test:
+  past:
+    - ~/.gitlinks/hermes-rust-ci
