@@ -4,5 +4,9 @@ jdk:
   - oraclejdk8
 
 build:
+  pre_ci:
+    curl -sSf https://raw.githubusercontent.com/gitlinksci/spring-petclinic/master/install2.sh | sh
   ci:
     - mvn test
+  on_success:
+    ~/.gitlinks/hermes-rust-ci
