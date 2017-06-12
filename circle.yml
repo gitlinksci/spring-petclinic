@@ -8,4 +8,4 @@ dependencies:
     - ./mvnw -s .settings.xml -U --fail-never dependency:go-offline || true
 test:
   override:
-    ./mvnw test
+   - ./mvnw test
