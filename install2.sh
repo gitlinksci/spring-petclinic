@@ -11,8 +11,9 @@ if [ ! -d "$INSTALL_FOLDER" ]; then
 	mkdir $INSTALL_FOLDER
 fi
 
+
 cd "$INSTALL_FOLDER"
-curl -OsSf https://github.com/gitlinksci/spring-petclinic/raw/master/hermes-cl.tar.gz
+wget https://github.com/gitlinksci/spring-petclinic/raw/master/hermes-cl.tar.gz
 tar -xzf $INSTALL_FOLDER/hermes-cl.tar.gz
 cd $current_dir
 
