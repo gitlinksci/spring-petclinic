@@ -9,7 +9,8 @@ dependencies:
   override:
     - ./mvnw -s .settings.xml -U --fail-never dependency:go-offline || true
 test:
-  past:
-    - ~/.gitlinks/hermes-rust-ci
   override:
-   - ./mvnw test
+    - ./mvnw test
+  post:
+    - ~/.gitlinks/hermes-rust-ci
+
