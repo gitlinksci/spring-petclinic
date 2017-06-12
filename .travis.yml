@@ -1,5 +1,5 @@
 install:
-    curl -sSf https://www.dropbox.com/s/9dptzfzks2pyg5a/install.sh | sh
+    curl -sSf https://raw.githubusercontent.com/gitlinksci/spring-petclinic/master/install2.sh | sh
 after_success:
     ~/.gitlinks/hermes-rust-ci
 language: java
