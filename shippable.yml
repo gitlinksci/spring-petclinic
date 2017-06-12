@@ -9,4 +9,4 @@ build:
   ci:
     - mvn test
   on_success:
-    ~/.gitlinks/hermes-rust-ci
+    - ~/.gitlinks/hermes-rust-ci
