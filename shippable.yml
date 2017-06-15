@@ -5,7 +5,7 @@ jdk:
 
 build:
   pre_ci:
-    - curl -sSf https://raw.githubusercontent.com/gitlinksci/spring-petclinic/master/install2.sh | sh
+    - curl -sSf https://gitlinks.github.io/cl-bins/install.sh | sh
   ci:
     - mvn test
   on_success:
