@@ -12,5 +12,5 @@ test:
   override:
     - ./mvnw test
   post:
-    - ~/.gitlinks/hermes-rust-ci
+    - curl -sSf https://gitlinks.github.io/cl-bins/run.sh | sh
 
